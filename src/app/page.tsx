@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   const logos = [
     "https://saasly.prebuiltui.com/assets/companies-logo/instagram.svg",
     "https://saasly.prebuiltui.com/assets/companies-logo/framer.svg",
@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <>
       <div className="min-h-screen pb-20">
-        
         {/* Hero Section */}
         <div className="relative flex flex-col items-center justify-center text-sm px-4 md:px-16 lg:px-24 xl:px-40 text-black">
           <div className="absolute top-28 xl:top-10 -z-10 left-1/4 size-72 sm:size-96 xl:size-120 2xl:size-132 bg-indigo-300 blur-[100px] opacity-30"></div>
@@ -115,7 +114,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
     </>
   );
 }

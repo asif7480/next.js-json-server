@@ -1,5 +1,5 @@
 {
-  "name": "crud-json-server",
+  "name": "nextjs-crud",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
-    "json-server": "npx json-server --watch --port 3001 src/db.json"
+    "json-server": "npx json-server --watch db.json --port 3001"
   },
   "dependencies": {
     "axios": "^1.12.2",
